@@ -8,7 +8,7 @@ FSJS project 2 - List Filter and Pagination
 //Getting all students listed in the HTML
 const students = document.querySelectorAll('.student-item'); 
 //Setting max number of students to show on each page 
-const maxItems = 10; 
+const maxItems = 9; 
 //Saving a reference to the .page div
 const page = document.querySelector('.page');  
 //pagesDiv and searchDiv are empty for now since the elements that should be stored in them don't exist yet
